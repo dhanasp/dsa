@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: arrays/isAnagram.js
+  checksum: 4b3075c457661a90f8c77742316dcdfcb6ea2bd3e99a89aed28ce23d0109c536
+version: ""
