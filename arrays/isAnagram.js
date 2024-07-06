@@ -3,6 +3,7 @@
 // An anagram is a string that contains the exact same characters as another string, 
 // but the order of the characters can be different.
 
+// timeComplexity = o(n^2)
 const isAnagram = (s,t) => {
     if(s.length != t.length) return false
     for(i=0; i< s.length; i++){
@@ -12,14 +13,13 @@ const isAnagram = (s,t) => {
     return true
 }
 
-timeComplexity = o(n^2)
+
 
 
 // take count of each key and compare
 // timeComplexity- o(n)
 const isAnagramA = (s,t) => {
     if(s.length != t.length) return false
-
     const countS = {}
     const countT = {}
 
@@ -32,7 +32,6 @@ const isAnagramA = (s,t) => {
         if(countS[key] != countT[key]) return false 
     }
     return true
-
 }
 
 // sort and check

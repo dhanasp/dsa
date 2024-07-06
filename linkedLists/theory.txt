@@ -1,0 +1,12 @@
+What is linked list?
+ - A list where nodes are linked together.
+ - each node contains pointer and next node referenace
+ - uses dynamic memory
+Node 1       Node 2       Node 3
++------+    +------+    +------+
+|  10  |    |  20  |    |  30  |
+| next |--> | next |--> | null |
++------+    +------+    +------+   
+
+In this example, each node contains a value (10, 20, and 30) and a 
+reference to the next node. The last node has a reference to null, indicating the end of the list.

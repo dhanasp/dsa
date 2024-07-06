@@ -1,0 +1,51 @@
+What is an array ?
+
+    - linear data structure where all the elements are sequentailly arranged
+    - collection of similar items stored in a fixed location in memory
+    - Each element in an array has a unique identifier called an index. start with 0
+    - because of indexing, we can access any element in the array quickly.
+
+Intiate array - 
+
+const a = [1,2,3,4]
+
+
+Types of arrays - 
+    1. On the basis of memory allocations - 
+    - static   :
+        Arrays whose size is fix, It cannot alter or update. Compile-time array - mostly used more efficient memory usage
+
+    - Dynamic  : 
+        Arrays whose size is not fixed and can change run time.
+    1. On the basis of Dimension - 
+    - One Dimensional - row like array, where all the elements stored one after another.
+    - Multi Dimensional - mostly used in storing complex data structure like table. (2D, 3D, 4D)
+
+
+- Operations on arrays - 
+
+1. Array traversal - visiting all the elements of the array once
+    code - 
+        let elements = [1,2,3,4,5]
+        for(a in elements)
+        console.log(a)
+2. Insertion - Inserting one or multiple elements at any position in the array
+    Code - 
+        let elements = [1,2,3,4,5]
+        elements.splice(2,0,6)
+
+3. Deletion in Array - Remove specific element from an Array
+    code - 
+        let elements =[1,2,3,4,5]
+        removeEle =(index, array)=>{
+            res = []
+            for(i=0; i>elements.length; i++){
+                        if(i != index){
+                            res.push(elements[i])
+                        }
+            }
+            return res
+        }
+       
+
+    
